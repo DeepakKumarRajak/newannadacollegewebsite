@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    font-family: Helvetica;
+}
+header .menu{
+    background-image: linear-gradient(90deg,rgb(200, 7, 7),rgb(152, 2, 2));
+    overflow: auto;
+    color: white;
+    font-size: 14px;
+}
+header .menu ul{
+    float: left;
+    margin-left: 10%;
+}
+header .menu ul li{
+    display: inline-block;
+    padding: 8px;
+}
+header .menu ol{
+    float: right;
+    margin-right: 15%;
+    
+}
+header .menu ol li{
+    display: inline-block;
+    padding: 8px;
+}
+a{
+    text-decoration: none;
+}
+.info{
+    background-image: url(../images/annada_logo.png);
+    background-repeat: no-repeat;
+    background-position: 200px 20px;
+    background-size: 250px 60px;
+    padding: 30px;
+}
+.location{
+    display: inline-block;
+    margin-left: 50%;
+}
+.mail{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.loc-logo,.loc-info,.mail-logo,.mail-info{
+    display: inline-block;
+    font-size: 14px;
+}
+.loc-logo .fa-map-marker,.mail-logo .fa-envelope{
+    font-size: 40px;
+    color: rgb(36, 36, 55);
+}
+nav{
+    background-color: navy;
+    font-size: 14px;
+    color: aliceblue;
+}
+nav ul{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li:hover{
+    background-color:aliceblue;
+    color: navy;
+    font-weight: bold;
+}
+section{
+    height: auto;
+}
+section img{
+    width: 100%;
+}
+section .notice-board{
+    background-color: whitesmoke;
+    padding: 100px;
+    overflow: auto;
+}
+section .notice-board .notice{
+    width: 65%;
+    height: 400px;
+    display: inline-block;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 10px 8px rgb(209, 206, 206);
+    overflow: auto;
+}
+section .notice-board .notice .notice-head{
+    padding: 20px 50px;
+}
+section .notice-board .notice .notice-head h2{
+    display: inline-block;
+    color: rgb(59, 58, 58);
+    padding: 10px 0px;
+}
+section .notice-board .notice .notice-head a{
+    color: white;
+    background-color: rgba(19, 19, 46, 0.788);
+    padding: 8px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+section .notice-board .notice-img{
+    width: 30%;
+    height: 400px;
+    margin-left: 1%;
+    display: inline-block;
+    background-image: url(../images/homepage_annada.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+section .notice-board .notice p{
+    color: rgb(85, 81, 81);
+    padding: 5px 50px;
+}
+section .notice-board .notice p a{
+    color: white;
+    background-color: rgb(74, 74, 251);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px
+}
+section .welcome-page{
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+    padding: 50px;
+    overflow:auto;
+}
+section .welcome-page .welcome{
+    width: 50%;
+    float: left;
+}
+section .welcome-page .welcome h1{
+    color: rgb(59, 58, 58);
+    padding-bottom: 10px;
+}
+section .welcome-page .welcome big{
+    color: rgb(59, 58, 58);
+}
+section .welcome-page .welcome p{
+    font-size: 16px;
+    color: rgb(128, 118, 118);
+    line-height: 25px;
+}
+section .welcome-page .welcome a{
+    background-color: rgba(19, 19, 46, 0.788);
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+section .welcome-page .choose-info{
+    float: right;
+    color: rgb(128, 118, 118);
+    width: 45%;
+    padding: 0px 20px;
+}
+section .welcome-page .choose-info h1{
+    color: rgb(59, 58, 58);
+    padding-bottom: 10px;
+}
+section .welcome-page .choose-info .info1,section .welcome-page .choose-info .info2,section .welcome-page .choose-info .info3,section .welcome-page .choose-info .info4
+{
+    display: inline-block;
+    width: 45%;
+}
+section .welcome-page .choose-info .info1 img,section .welcome-page .choose-info .info2 img,section .welcome-page .choose-info .info3 img,section .welcome-page .choose-info .info4 img
+{
+    width: 40%;
+}
+section .spinfo{
+    height: 550px;
+    background-image: linear-gradient(90deg,rgb(118, 71, 71),rgb(66, 66, 116),rgb(47, 47, 87));
+    padding: 50px 100px;
+    overflow: auto;
+}
+section .spinfo .sinfo{
+    float: left;
+    width: 45%;
+    margin-left: 10%;
+}
+section .spinfo .sinfo img{
+    width: 70%;
+    border: 3px solid white;
+}
+section .spinfo .pinfo img{
+    width: 70%;
+    border: 3px solid white;
+}
+section .spinfo .pinfo{
+    float: right;
+    width: 45%;
+}
+section .course{
+    background-color: whitesmoke;
+    padding: 50px 200px;
+    overflow: auto;
+}
+section .course .c1,section .course .c2,section .course .c3,section .course .c4
+{
+    width: 23%;
+    display: inline-block;
+    background-color: white;
+}
+section .course .c1 p,section .course .c2 p,section .course .c3 p,section .course .c4 p
+{ 
+    text-align: justify;
+    padding: 20px;
+}
+section .course h1{
+    font-size: 35px;
+}
+section .course a{ 
+    background-color: rgba(19, 19, 46, 0.788);
+    color: white;
+    padding: 10px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+section .faclty{
+    padding: 50px 200px;
+}
+section .faclty h1{
+    font-size: 35px;
+}
+section .faclty .faclty1,section .faclty .faclty2,section .faclty .faclty3,section .faclty .faclty4,section .faclty .faclty5{
+    width: 19%;
+    display: inline-block;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
+}
+section .faclty .faclty1 p,section .faclty .faclty2 p,section .faclty .faclty3 p,section .faclty .faclty4 p,section .faclty .faclty5 p{
+    color: rgb(59, 58, 58);
+}
+section .faclty .faclty1 a,section .faclty .faclty2 a,section .faclty .faclty3 a,section .faclty .faclty4 a,section .faclty .faclty5 a{
+    background-color: rgba(19, 19, 46, 0.788);
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+section .counter{
+    padding: 50px;
+    background-color: rgb(25, 25, 51);
+    color: rgba(245, 3, 43, 0.799);
+    text-align: center;
+}
+section .counter .counter1,section .counter .counter2,section .counter .counter3,section .counter .counter4{
+    display: inline-block;
+    width: 20%;
+}
+section .counter i{
+    font-size: 30px;
+}
+section .counter span{
+    font-size: 40px;
+    color: white;
+}
+section .counter p{
+    color: white;
+    font-size: 14px;
+}
+section .connect{
+    padding: 20px 200px;
+}
+section .connect .connect1,section .connect .connect2,section .connect .connect3,section .connect .connect4,section .connect .connect5,section .connect .connect6,section .connect .connect7{
+    display: inline-block;
+    padding-right: 1%;
+}
+footer .details{
+    padding: 50px 200px;
+    background-color: rgb(25, 25, 51);
+}
+footer .details .details1,footer .details .details2,footer .details .details3,footer .details .details4{
+    display: inline-block;
+    width: 22%;
+    margin-right: 2%;
+}
+footer .details .details1 img{
+    border-radius: 20px;
+    width: 100%;
+}
+footer .details p{
+    font-size: 14px;
+    color: white;
+    padding: 10px 0px;
+}
+footer .details2 p{
+    padding-left: 20px;
+    border-bottom: 1px dashed rgb(85, 81, 81);
+}
+footer .details3 p{
+    padding-left: 20px;
+    border-bottom: 1px dashed rgb(85, 81, 81);
+}
+footer .details i{
+    font-size: 16px;
+    color: rgba(245, 3, 43, 0.799);
+}
+footer .details h3{
+    color: rgb(152, 2, 2);
+    margin-bottom: 10px;
+}
+footer .copyres{
+    padding: 20px 200px;
+    background-color: rgb(55, 53, 53);
+    font-size: 14px;
+    color: rgb(106, 102, 102);
+}
+
